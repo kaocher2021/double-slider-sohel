@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*========== intro part goes here===========*/
+
+#kaffee{
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+.kaffee-intro{
+    text-align: center;
+}
+
+.kaffee-intro h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    color: #5f3213;
+    padding-top: -5px;
+    position: relative;
+}
+
+.kaffee-intro h1::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: url(../images/after.png);
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+}
+
+
+.kaffee-intro h1::before{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: url(../images/before.png);
+    top: 50%;
+    right: 60%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.kaffee-intro p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    max-width: 540px;
+    margin: 0 auto;
+    line-height: 20px;
+    
+}
+
+.kaffee-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kaffee-item{
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kaffee-img{
+    width: 170px;
+    margin-top: 65px;
+    margin-right: 20px;
+    opacity: 0.3;
+    transition: all linear .3s;
+}
+
+.kaffee-img.slick-center{
+    opacity: 1;
+    margin-top: 40px;
+    -webkit-box-shadow: 3px 3px 10px 5px #00000059; 
+    box-shadow: 3px 3px 10px 3px #0000004b;
+
+}
+
+.kaffee-feedback{
+    width:570px;
+}
+
+
+.feed-head h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #353535;
+    padding-bottom: 10px;
+}
+
+.feed-head h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+   
+}
+
+.feed-head i{
+    color: #5f3213;
+    padding-bottom: 20px;
+}
+
+.feed-head p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.feed-head h4{
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: right;
+   
+}
+
+.feed-head p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+   max-width: 440px;
+}
+
+.feed-bottom-social h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.feed-bottom-social{
+    padding-top: 40px;
+    text-align: left;
+   
+}
+
+.feed-bottom-social a i{
+   width: 30px;
+   height: 30px;
+  border: 1px solid #5f3213;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  color: #353535;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  transition: all linear .3s;
+  font-weight: 500;
+
+}
+
+.feed-bottom-social a i:hover{
+    background-color: #5f3213;
+    color: #fff;
+}
